@@ -1,0 +1,125 @@
+body {
+  background-color: rgb(22, 19, 19);
+}
+
+.nav {
+  height: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 0px;
+  padding: 5px;
+  margin-top: 0px;
+  background-color: rgba(71, 63, 63, 0.425);
+  display: flex;
+  border-radius: 6px;
+}
+
+.nav h2 {
+  color: rgb(61, 219, 211);
+  padding: 0px;
+  padding-left: 0px;
+  margin-top: 5px;
+}
+
+.nav h2 b {
+  color: rgb(226, 23, 23);
+  padding: 3px;
+  margin: 10px;
+  border-radius: 15px;
+  font-family: magneto;
+  font-size: 30px;
+  border: 5px solid rgb(61, 219, 211);
+}
+
+.nav .portofolio {
+  flex: 0.5;
+}
+
+.nav .link-atas {
+  flex: 0.5;
+}
+
+.nav .link-atas ul li {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.nav a:hover {
+  background-color: rgb(23, 142, 197);
+  color: snow;
+}
+.main {
+  display: flex;
+}
+
+#content {
+  width: 70%;
+  background-color: rgb(110, 96, 96);
+  padding: 15px;
+}
+
+p {
+  text-align: justify;
+  text-indent: 2%;
+}
+
+.aside {
+  background-color: rgb(48, 40, 40);
+  width: 30%;
+  padding: 15px;
+  color: rgb(163, 166, 168);
+}
+
+.aside p {
+  text-align: center;
+}
+
+img {
+  width: 50%;
+  border-radius: 15px;
+}
+
+.footer {
+  height: 30px;
+  color: blanchedalmond;
+  text-align: center;
+}
+
+/* media query */
+@media (max-width: 768px) {
+  .nav .link-atas {
+    flex: 0.7;
+  }
+
+  .nav .link-atas ul li {
+    display: inline-block;
+    margin-left: 5%;
+  }
+
+  .nav h2 {
+    color: rgb(61, 219, 211);
+    padding: 0px;
+    padding-left: 0px;
+    margin-top: 20px;
+    font-size: 10px;
+  }
+
+  .nav .portofolio {
+    flex: 0.3;
+  }
+
+  .nav h2 b {
+    color: rgb(226, 23, 23);
+    padding: 3px;
+    margin: 5px;
+    border-radius: 15px;
+    font-family: magneto;
+    font-size: 10px;
+    border: 5px solid rgb(61, 219, 211);
+  }
+
+  .aside p {
+    text-align: justify;
+    font-size: 13px;
+  }
+}
